@@ -18,7 +18,7 @@ This document provides essential information about the Password Reset Flow proje
 
 This API endpoint allows you signup for new user
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/signup
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/signup
 
 **Method:** POST
 
@@ -26,7 +26,7 @@ This API endpoint allows you signup for new user
 
 This API endpoint will manage login process with jwt token authoraization.
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/login
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/login
 
 **Method:** POST
 
@@ -34,7 +34,7 @@ This API endpoint will manage login process with jwt token authoraization.
 
 This API endpoint will manage forgot password process, it will send password reset link to user with token for Authoraization.
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/forgot-password
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/forgot-password
 
 **Method:** POST
 
@@ -42,7 +42,7 @@ This API endpoint will manage forgot password process, it will send password res
 
 This API endpoint will send the verification token to backend and verify its valid or not.
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/verify-token/:token
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/verify-token/:token
 
 **Method:** GET
 
@@ -50,7 +50,7 @@ This API endpoint will send the verification token to backend and verify its val
 
 This API endpoint will allow user to set new password by verifying token which was generated.
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/reset-password
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/reset-password
 
 **Method:** PUT
 
@@ -58,7 +58,7 @@ This API endpoint will allow user to set new password by verifying token which w
 
 This API endpoint will send all avatar list to consume on user end to set profile picture
 
-**URL:** https://password-reset-backend-main-oepf.onrender.com/api/avatars
+**URL:** https://password-reset-backend-main-huso.onrender.com/api/avatars
 
 **Method:** GET
 
