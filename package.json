@@ -2,9 +2,9 @@
   "name": "password-reset-backend",
   "version": "1.0.0",
   "description": "user authentication with password reset",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
   "author": "JAGAN",
   "license": "ISC",
